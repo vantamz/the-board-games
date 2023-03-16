@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+span,
+div,
+a,
+b {
+    font-family: "Nunito Sans" !important;
+}
+b,
+strong {
+    font-weight: 700;
+    color: black;
+}
+.profile_edit {
+    width: 50px !important;
+    height: 50px !important;
+    margin-right: 10px;
+}
+.user-info {
+    padding: 10px;
+}
+.user-info:hover {
+    background: #e6e6e6;
+    cursor: pointer;
+}
+.user-info p,
+.order-info p {
+    margin-left: 10px;
+}
+.user-info a,
+.order-info a {
+    color: #777777;
+}
+.order-info {
+    padding: 10px;
+}
+.order-info:hover,
+.order-info.active {
+    background: #e6e6e6;
+    cursor: pointer;
+}
+.user-info:hover,
+.user-info.active {
+    background: #e6e6e6;
+    cursor: pointer;
+}
+.h-90 {
+    height: 90px;
+}
+.myorder-table thead tr {
+    border-bottom: 1px solid #cccccc;
+}
+.myorder-table .hasborder {
+    border-bottom: 1px solid #cccccc;
+}
+.myorder-wrapper {
+    background: white;
+}
+.table > :not(caption) > * > * {
+    border-bottom-width: 0px;
+}
+.order-detail-info span {
+    font-weight: 300;
+    font-size: 16px;
+}
+.order-detail-info span {
+    font-weight: 300;
+    font-size: 16px;
+}
+.save-user-info-btn {
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #2e2e2e;
+}
